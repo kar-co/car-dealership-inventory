@@ -9,6 +9,4 @@ app = FastAPI(
 
 @app.get("/")
 def root():
-    return {
-        "message": "Welcome to Car Dealership Inventory System API"
-    }
+    return {"message": "Welcome to Car Dealership Inventory System API"}
